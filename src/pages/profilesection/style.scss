@@ -1,0 +1,42 @@
+.profile-main {
+    font-family: 'Poppins', sans-serif;
+    .profile-section {
+        .profile-left {
+          padding: 30px;
+          h3 {
+            font-size:44px;
+            font-weight: 700;
+          }
+          h4 {
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+          .profile-image {
+            border-radius: 10%;
+            margin-right: 10px;
+            width: 200px;
+            height: auto;
+          }
+          .user-info {
+            p {
+              font-size: 22px;
+            }
+          }
+          .location {
+            p {
+              font-size: 22px;
+            }
+          }
+      
+          background: rgb(255, 245, 249);
+          background: radial-gradient(circle, rgba(255, 245, 249, 1) 0%, rgba(162, 222, 205, 1) 100%);
+      
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+      }
+}
+
+
